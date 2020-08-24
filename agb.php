@@ -9,7 +9,7 @@
     <body>        
         <div class="container-md p-3">
             <?php include("navbar.php"); ?><br>
-            <h1>Allgemeine Geschäftsbedingungen</h1>
+            <h4>Allgemeine Geschäftsbedingungen</h4>
             <div class="container">
                 <br><h4>1. Regelungsbereich</h4>
                 <p>Bereits auf der Plattform eingestellte Organisationen und Projekte werden aus Transparenzgründen nach Maßgabe dieser AGB weiterhin auf der Plattform hope.at angezeigt.</p>
