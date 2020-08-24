@@ -10,8 +10,14 @@ if (!isset($_COOKIE['loggedin'])) {
             <span class='navbar-toggler-icon'></span>
         </button>
     
-        <div class='collapse navbar-collapse' id='collapsibleNavbar'>
-            <ul class='navbar-nav'>
+       <div class='collapse navbar-collapse' id='collapsibleNavbar'>
+        <ul class='navbar-nav'>
+              <li class='nav-item'>
+                <a class='nav-link'  href='projekte.php'>Projekte</a>
+            </li>
+            <li class='nav-item'>
+                <a class='nav-link'  href='kontakt.php'>Kontakt</a>
+            </li>
               <li class='nav-item'>
                 <a class='nav-link' href='login.php'>Login</a>
             </li>
