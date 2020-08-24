@@ -1,0 +1,67 @@
+/* Large devices (desktops, 992px and up)    */
+/*********************************************/
+    body {
+        background:white-space;
+    }
+
+    .container-md {
+        background: lightgrey;  
+    }
+
+    .mylogo {
+        width: 80px;
+    }
+    
+    .navbar {
+        padding-left:10px;
+    }
+
+    .myContainer {
+        min-height:330px;
+    }
+
+    
+/* Medium devices (tablets, up to 991px      */
+/*********************************************/
+@media (max-width: 991px) { 
+
+    body {
+       
+    }
+    
+    .container-md {
+        
+    }
+
+    .mylogo {
+        width: 55px;
+    }
+    
+    .navbar {
+       padding: 5px 10px;
+
+    }
+    
+}
+
+/* Medium devices phones, up to 576px        */
+/*********************************************/
+@media (max-width: 576px) {
+    body {
+        
+         }
+
+    .container-md {
+         
+    }
+    
+    .mylogo {
+        width: 70px;
+    }
+
+   .navbar {
+       padding: 5px 7px;
+    }    
+    
+}
+

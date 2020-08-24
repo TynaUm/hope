@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projekte</title>
+        <link href="Projekte.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var ImgCountToShow = 2;
+                var ImgCountToHide = 3;
+                $("#btSlide").click(function () {
+                    $("#img" + ImgCountToHide).fadeOut("slow");
+                    $("#img" + ImgCountToShow).fadeIn("slow");
+                    console.warn("ImgCountToHide: " + ImgCountToHide);
+                    console.warn("ImgCountToShow: " + ImgCountToShow);
+                    if (ImgCountToHide == 4) {
+                        ImgCountToHide = 0;
+                    } else {
+                        ImgCountToHide++;
+                    }
+                    if (ImgCountToShow == 4) {
+                        ImgCountToShow = 0;
+                    } else {
+                        ImgCountToShow++;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <h1>Projekte</h1>
+
+        <div style="text-align:left">
+            <h2 id="Umut">Kinder</h2>
+            <p>Das Geld wird fuer die Kinder gespendet.</p>
+            <button id="btSlide">Slide</button>
+            <div class="slideshow">
+                <div style="text-align:left">
+                    <a href="img\Kinder\IMG_1.jpg" data-lightbox="Kinder">
+                        <img id="img11" src="img\Kinder\IMG_1.png"></a> 
+
+                    <a href="img\Kinder\IMG_2.jpg" data-lightbox="Kinder">
+                        <img id="img12" src="img\Kinder\IMG_2.png"></a><br> 
+
+                    <a href="img\Kinder\IMG_3.jpg" data-lightbox="Kinder">
+                        <img id="img13" src="img\Kinder\IMG_3.png"></a> 
+
+                    <a href="img\Kinder\IMG_4.jpg" data-lightbox="Kinder">
+                        <img id="img14" src="img\Kinder\IMG_4.png"></a><br> 
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="text-align:right">
+            <h2 id="Hope">Bildung</h2>
+            <p>Das Geld wird fuer die Bldung gespendet.</p>
+            <button id="btSlide">Slide</button>
+            <div class="slideshow">
+                <div style="text-align:right">
+                    <a href="img\Bildung\IMG_1.jpg" data-lightbox="Bildung">
+                        <img id="img4" src="img\Bildung\IMG_1.png"></a>   
+
+                    <a href="img\Bildung\IMG_2.jpg" data-lightbox="Bildung">
+                        <img id="img4" src="Bildung\IMG_2.png"></a><br>
+
+                    <a href="img\Bildung\IMG_3.jpg" data-lightbox="Bildung">
+                        <img id="img4" src="Bildung\IMG_3.png"></a>  
+
+                    <a href="img\Bildung\IMG_4.jpg" data-lightbox="Bildung">
+                        <img id="img4" src="Bildung\IMG_4.png"></a><br> 
+                </div>
+                <div style="text-align:left">
+                    <h2 id="Umut">Gesundheit</h2>
+                    <p>Das Geld wird fuer die Gesundheit gespendet.</p>
+                    <button id="btSlide">Slide</button>
+                    <div class="slideshow">
+                        <div style="text-align:left">
+                            <a href="img\Gesundheit\IMG_1.jpg" data-lightbox="Gesundheit">
+                                <img id="img4" src="img\Gesundheit\IMG_1.png"></a>
+
+                            <a href="img\Gesundheit\IMG_2.jpg" data-lightbox="Gesundheit">
+                                <img id="img4" src="Gesundheit\IMG_2.png"></a><br>
+
+                            <a href="img\Gesundheit\IMG_3.jpg" data-lightbox="Gesundheit">
+                                <img id="img4" src="Gesundheit\IMG_3.png"></a> 
+
+                            <a href="img\Gesundheit\IMG_4.jpg" data-lightbox="Gesundheit">
+                                <img id="img4" src="Gesundheit\IMG_4.png"></a><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
+

@@ -1,0 +1,80 @@
+/* Large devices (desktops, 992px and up)    */
+/*********************************************/
+
+.teaserbild{
+    color:white;
+    overflow:hidden; 
+    height:400px;  
+    background-image: url('../img/wolken.jpg'); 
+    background-position:center center;
+}
+
+.teaserbild h1 {
+    display:block;
+    position:relative;
+    vertical-align: middle;
+    top:30%;
+    padding:7px;
+}
+
+.header {
+   display:block;
+   position:relative;
+   top:40px;
+}
+
+.spenden {
+   display:block;
+   position:relative;
+   top:40px;
+}
+
+/* Medium devices (tablets, up to 991px      */
+/*********************************************/
+@media (max-width: 991px) { 
+
+    .teaserbild{
+        height:300px;  
+    }
+
+    .teaserbild h1 {
+        top:30%;
+        font-size: 30px;
+        padding:7px;
+    }
+
+
+    .header {
+
+    }
+
+    .spenden {
+
+    }
+    
+}
+
+
+/* Medium devices phones, up to 576px        */
+/*********************************************/
+@media (max-width: 576px) {
+
+    .teaserbild{
+        height:180px;  
+    }
+
+    .teaserbild h1 {
+        top:30%;
+        font-size: 18px;
+        padding:7px;
+    }
+
+    .header {
+    
+    }
+
+    .spenden {
+
+    }
+}
+
